@@ -23,7 +23,7 @@
             float nDias=Float.parseFloat(dias);
            
             
-            float valorFinal=nValor*((1+(nPorcentaje/100)*nDias));
+            float valorFinal=nValor*((1+(nPorcentaje/100)*(nDias/365)));
             
             out.println(valorFinal);
             
